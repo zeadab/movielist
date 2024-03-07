@@ -1,0 +1,43 @@
+
+@import  "./styles/addmovie" ;
+@import "./styles/movielist";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.divi {
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  @media screen and (min-width: 1024px){
+    width: 300%;
+
+  }
+  @media screen and (max-width: 1022px){
+    flex-direction: column;
+
+  }
+}
+
+
+.add-movie {
+  margin: 20px 45px;
+
+}
+
+.movie-list {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+
+}

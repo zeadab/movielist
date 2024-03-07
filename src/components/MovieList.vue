@@ -1,5 +1,5 @@
-<template>
-  <div>
+<template >
+  <div class="movie-list">
     <h1>Movies</h1>
     <ul>
       <li v-for="movie in movies" :key="movie.id">
@@ -27,3 +27,4 @@ onMounted(async () => {
   }
 });
 </script>
+

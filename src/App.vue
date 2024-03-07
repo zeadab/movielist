@@ -13,14 +13,13 @@ import AddMovie from './components/AddMovie.vue';
 
 <template>
   <div id="app">
-    <MovieList />
-    <AddMovie />
+    <div class="divi">
+    <MovieList class="movie-list" />
+    <AddMovie class="add-movie" />
+  </div>
   </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
+<<style lang="scss" >
+@import "./style/main.scss";
 </style>

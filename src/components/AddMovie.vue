@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="add-movie">
     <h2>Add Movie</h2>
     <input type="text" v-model="newMovie.title" placeholder="Enter movie name" />
     <input type="number" v-model="newMovie.rating" placeholder="Enter movie rating (1-5)" />
