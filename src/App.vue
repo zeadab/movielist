@@ -1,15 +1,21 @@
 <script setup>
 
+
+import MovieList from './components/MovieList.vue';
+import AddMovie from './components/AddMovie.vue';
+
+  components: {
+    MovieList
+    AddMovie
+  }
+
 </script>
 
 <template>
-  <header>
-
-  </header>
-
-  <main>
-
-  </main>
+  <div id="app">
+    <MovieList />
+    <AddMovie />
+  </div>
 </template>
 
 <style scoped>
